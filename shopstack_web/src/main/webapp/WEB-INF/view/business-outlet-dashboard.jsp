@@ -27,9 +27,9 @@
 	
 	<hr>
 	<!-- product form but should lead to product view  -->
-		<form:form action="${pageContext.request.contextPath}/product/form" 
+		<form:form action="${pageContext.request.contextPath}/product/list-product" 
 			method="GET">
-		<input type="submit" value="Product">
+		<input type="submit" value="Manage Product">
 	</form:form>
 	
 	<hr>
